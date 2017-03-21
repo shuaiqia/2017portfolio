@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<!-- 欢迎您参观Shuai的网页源代码，网页的效果由设计和代码组成，这里的代码，一部分自己编写，一部分从其他网站搬运过来的，一部分通过修改实例得来，如果有问题，可以尝试联系qq 1871402465。 -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Portfolio of Shuai </title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Pixel Fabric clothes icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/pixelfabric-clothes/style.css" />
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	 <!-- Flickity gallery styles -->
+	<link rel="stylesheet" type="text/css" href="css/flickity.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+
+</head>
+<body>
+	<!-- Bottom bar with filter and cart info -->
+	<div class="bar">
+		<div class="filter">
+			<span class="filter__label"><Ftext>Filter: </Ftext></span>
+			<button class="action filter__item filter__item--selected" data-filter="*"><Ftext>All</Ftext></button>
+			
+		<style type="text/css">Ftext{
+		
+		}
+		</style> 
+			
+			<button class="action filter__item" data-filter=".icons"><i class="icon icon--icon"></i><Ftext>Icon</Ftext></button>
+			<button class="action filter__item" data-filter=".game"><i class="icon icon--game"></i><Ftext>Game</Ftext></button>
+			<button class="action filter__item" data-filter=".app"><i class="icon icon--app"></i><Ftext>APP</Ftext></button>
+			<button class="action filter__item" data-filter=".draft"><i class="icon icon--draft"></i><Ftext>Draft</Ftext></button>
+			<button class="action filter__item" data-filter=".AD"><i class="icon icon--AD"></i><Ftext>AD</Ftext></button>
+			
+		</div>
+		<button class="cart">
+			<i class="cart__icon fa fa-shopping-cart"></i>
+			<span class="text-hidden">Shopping cart</span>
+			<span class="cart__count">0</span>
+		</button>
+	</div>
+	<!-- Main view -->
+	<div class="view">
+		<!-- Blueprint header -->
+
+		<style type="text/css">topimage{
+		display:flex;
+		justify-content:center;
+		margin:20px 0 0px;
+		transform: scale(0.5);
+		}
+		</style> 
+		<topimage><image src="images/westLogo.png"></topimage>
+
+		<!-- Grid -->
+		<section class="grid grid--loading">
+			<div class="grid__sizer"></div>
+			<!-- Grid items -->
+			<div class="grid__item grid__item--size-b  AD">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/ams/egg4.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ams/egg5.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ams/egg3.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ams/egg1.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ams/egg2.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+				    <span class="meta__title">AMS产品概念</span>
+					<span class="meta__brand">杂志插画</span>
+					
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon1.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏icon</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			
+			
+			
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/logo1.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">品牌Logo</span>
+					<span class="meta__brand">英语教育行业</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon6.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">概念Logo</span>
+					<span class="meta__brand">启蒙教育</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/logo2.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">应用icon</span>
+					<span class="meta__brand">英语绘本类APP</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-c app">
+				<div class="slider">
+					<div class="slider__item_app"><img src="images/app1.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app02.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app03.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app04.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app05.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app06.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app07.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app08.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">APP保真效果</span>
+					<span class="meta__brand">英语绘本类APP</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+				<div class="slider__item_c"><img src="images/icon2.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏icon</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+				<div class="slider__item_c"><img src="images/icon3.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">产品icon</span>
+					<span class="meta__brand">产品主形象</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b draft">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/Space1.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/Space2.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">启动页练习</span>
+					<span class="meta__brand">星际题材</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon5.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">应用icon</span>
+					<span class="meta__brand">儿童教育</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon4.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">应用icon</span>
+					<span class="meta__brand">儿童教育</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon7.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏icon</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/ride/ride08.png" alt="Sorry, the work is missing" /></div>
+
+				</div>
+				<div class="meta">
+					<span class="meta__title">icon练习</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			
+			<div class="grid__item grid__item--size-b game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/game6.png" alt="Sorry, the work is missing" /></div>
+
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏效果</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/ride/ride03.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ride/ride04.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ride/ride05.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏背景</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+
+			<div class="grid__item grid__item--size-b game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/ride/ride09.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ride/ride10.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ride/ride02.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏效果</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/ride/ride01.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ride/ride11.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/ride/ride12.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏效果</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b game">
+				<div class="slider">
+					<div class="slider__item_d"><img src="images/ride/riding.gif" alt="Sorry, the work is missing" /></div>
+
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏人物动画</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item  grid__item--size-e  game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/ride/ride06.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏道具自行车</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+
+
+			<div class="grid__item  grid__item--size-b draft">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/card/bg01.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">练习</span>
+					<span class="meta__brand">风景</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b draft">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/card/card03.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/card/card02.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/card/card01.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏概念</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b app">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/mock01.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">APP展示效果</span>
+					<span class="meta__brand">英语绘本类APP</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-c app">
+				<div class="slider">
+					<div class="slider__item_app"><img src="images/app/app09.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app10.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app11.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app12.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_app"><img src="images/app/app18.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">APP保真效果</span>
+					<span class="meta__brand">英语绘本类APP</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b app">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/app/app16.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/app/app19.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/app/app15.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/app/app17.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/app/app14.png" alt="Sorry, the work is missing" /></div>
+					
+				</div>
+				<div class="meta">
+					<span class="meta__title">APP保真效果</span>
+					<span class="meta__brand">英语绘本类APP</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-b game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/game/game10.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/game/game11.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/game/game12.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/game/game13.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/game/game14.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏效果</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-e draft">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/family/family01.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">练习</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+
+			<div class="grid__item grid__item--size-c  game">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/game1.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/game2.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">游戏效果</span>
+					<span class="meta__brand">儿童游戏</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon8.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">公众号Logo</span>
+					<span class="meta__brand">微信公众号</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			<div class="grid__item grid__item--size-f icons">
+				<div class="slider">
+					<div class="slider__item_c"><img src="images/icon9.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+				    <span class="meta__title">应用icon</span>
+					<span class="meta__brand">概念APP</span>
+					
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			
+			<div class="grid__item grid__item--size-d  AD">
+				<div class="slider">
+					<div class="slider__item_bigpic"><img src="images/h5/h5_01.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/h5/h5_011.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/h5/h5_012.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/h5/h5_013.png" alt="Sorry, the work is missing" /></div>
+					<div class="slider__item_bigpic"><img src="images/h5/h5_014.png" alt="Sorry, the work is missing" /></div>
+				</div>
+				<div class="meta">
+					<span class="meta__title">H5效果</span>
+					<span class="meta__brand">品牌推广</span>
+					
+				</div>
+				<button class="action action--button action--buy"><i></i><span> </span></button>
+			</div>
+			
+
+			
+		</section>
+		<!-- /grid-->
+	</div>
+	<!-- /view -->
+	
+
+	
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
